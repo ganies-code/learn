@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Beginner Concepts Checklist</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 5px 0;
+    }
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Beginner Concepts Checklist</h1>
+
+  <div class="section">
+    <h2>1. Introduction to CSS</h2>
+    <ul>
+      <li><input type="checkbox"> What is CSS?</li>
+      <li><input type="checkbox"> Types of CSS: Inline, Internal, External</li>
+      <li><input type="checkbox"> How to link CSS to HTML</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>2. CSS Syntax and Selectors</h2>
+    <ul>
+      <li><input type="checkbox"> CSS Syntax: Selectors, Properties, and Values</li>
+      <li><input type="checkbox"> Universal Selector (<code>*</code>)</li>
+      <li><input type="checkbox"> Type Selector (e.g., <code>h1</code>, <code>p</code>)</li>
+      <li><input type="checkbox"> Class Selector (<code>.className</code>)</li>
+      <li><input type="checkbox"> ID Selector (<code>#idName</code>)</li>
+      <li><input type="checkbox"> Grouping Selectors (e.g., <code>h1, p</code>)</li>
+      <li><input type="checkbox"> Descendant, Child, Adjacent, and General Sibling Selectors</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>3. Box Model</h2>
+    <ul>
+      <li><input type="checkbox"> Content, Padding, Border, Margin</li>
+      <li><input type="checkbox"> Box Sizing: <code>content-box</code> vs <code>border-box</code></li>
+      <li><input type="checkbox"> Inspecting Box Model in Browser Developer Tools</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>4. Colors and Backgrounds</h2>
+    <ul>
+      <li><input type="checkbox"> Color Values: Named Colors, HEX, RGB, RGBA, HSL, HSLA</li>
+      <li><input type="checkbox"> Background Properties:</li>
+      <ul>
+        <li><input type="checkbox"> <code>background-color</code></li>
+        <li><input type="checkbox"> <code>background-image</code></li>
+        <li><input type="checkbox"> <code>background-repeat</code></li>
+        <li><input type="checkbox"> <code>background-size</code></li>
+        <li><input type="checkbox"> <code>background-position</code></li>
+        <li><input type="checkbox"> <code>background-attachment</code></li>
+      </ul>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>5. Typography</h2>
+    <ul>
+      <li><input type="checkbox"> Text Properties:</li>
+      <ul>
+        <li><input type="checkbox"> <code>color</code></li>
+        <li><input type="checkbox"> <code>font-family</code></li>
+        <li><input type="checkbox"> <code>font-size</code></li>
+        <li><input type="checkbox"> <code>font-weight</code></li>
+        <li><input type="checkbox"> <code>font-style</code></li>
+        <li><input type="checkbox"> <code>line-height</code></li>
+        <li><input type="checkbox"> <code>letter-spacing</code></li>
+        <li><input type="checkbox"> <code>text-align</code></li>
+        <li><input type="checkbox"> <code>text-decoration</code></li>
+        <li><input type="checkbox"> <code>text-transform</code></li>
+        <li><input type="checkbox"> <code>white-space</code></li>
+      </ul>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>6. Positioning and Layout</h2>
+    <ul>
+      <li><input type="checkbox"> Display Property:</li>
+      <ul>
+        <li><input type="checkbox"> <code>block</code>, <code>inline</code>, <code>inline-block</code>, <code>none</code></li>
+      </ul>
+      <li><input type="checkbox"> Position Property:</li>
+      <ul>
+        <li><input type="checkbox"> <code>static</code>, <code>relative</code>, <code>absolute</code>, <code>fixed</code>, <code>sticky</code></li>
+      </ul>
+      <li><input type="checkbox"> Float and Clear</li>
+      <li><input type="checkbox"> Z-index</li>
+      <li><input type="checkbox"> Overflow (<code>hidden</code>, <code>scroll</code>, <code>auto</code>)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>7. CSS Flexbox</h2>
+    <ul>
+      <li><input type="checkbox"> Container Properties:</li>
+      <ul>
+        <li><input type="checkbox"> <code>display: flex</code></li>
+        <li><input type="checkbox"> <code>flex-direction</code></li>
+        <li><input type="checkbox"> <code>justify-content</code></li>
+        <li><input type="checkbox"> <code>align-items</code></li>
+        <li><input type="checkbox"> <code>align-content</code></li>
+        <li><input type="checkbox"> <code>flex-wrap</code></li>
+      </ul>
+      <li><input type="checkbox"> Item Properties:</li>
+      <ul>
+        <li><input type="checkbox"> <code>order</code></li>
+        <li><input type="checkbox"> <code>flex-grow</code>, <code>flex-shrink</code>, <code>flex-basis</code></li>
+        <li><input type="checkbox"> <code>align-self</code></li>
+      </ul>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>8. CSS Grid</h2>
+    <ul>
+      <li><input type="checkbox"> Container Properties:</li>
+      <ul>
+        <li><input type="checkbox"> <code>display: grid</code></li>
+        <li><input type="checkbox"> <code>grid-template-rows</code>, <code>grid-template-columns</code></li>
+        <li><input type="checkbox"> <code>gap</code></li>
+        <li><input type="checkbox"> <code>justify-items</code>, <code>align-items</code>, <code>place-items</code></li>
+      </ul>
+      <li><input type="checkbox"> Item Properties:</li>
+      <ul>
+        <li><input type="checkbox"> <code>grid-row</code>, <code>grid-column</code></li>
+        <li><input type="checkbox"> <code>justify-self</code>, <code>align-self</code></li>
+      </ul>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>9. Pseudo-classes and Pseudo-elements</h2>
+    <ul>
+      <li><input type="checkbox"> Pseudo-classes:</li>
+      <ul>
+        <li><input type="checkbox"> <code>:hover</code>, <code>:focus</code>, <code>:active</code></li>
+        <li><input type="checkbox"> <code>:nth-child</code>, <code>:nth-of-type</code></li>
+      </ul>
+      <li><input type="checkbox"> Pseudo-elements:</li>
+      <ul>
+        <li><input type="checkbox"> <code>::before</code>, <code>::after</code></li>
+      </ul>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>10. Transitions and Animations</h2>
+    <ul>
+      <li><input type="checkbox"> CSS Transitions:</li>
+      <ul>
+        <li><input type="checkbox"> <code>transition-property</code></li>
+        <li><input type="checkbox"> <code>transition-duration</code></li>
+        <li><input type="checkbox"> <code>transition-timing-function</code></li>
+        <li><input type="checkbox"> <code>transition-delay</code></li>
+      </ul>
+      <li><input type="checkbox"> CSS Keyframes:</li>
+      <ul>
+        <li><input type="checkbox"> <code>@keyframes</code></li>
+        <li><input type="checkbox"> <code>animation-name</code>, <code>animation-duration</code></li>
+        <li><input type="checkbox"> <code>animation-timing-function</code>, <code>animation-delay</code></li>
+        <li><input type="checkbox"> <code>animation-iteration-count</code>, <code>animation-direction</code></li>
+      </ul>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>11. Responsive Design</h2>
+    <ul>
+      <li><input type="checkbox"> Media Queries:</li>
+      <ul>
+        <li><input type="checkbox"> Syntax</li>
+        <li><input type="checkbox"> Breakpoints</li>
+      </ul>
+      <li><input type="checkbox"> Units for Responsive Design:</li>
+      <ul>
+        <li><input type="checkbox"> Relative Units: <code>%</code>, <code>em</code>, <code>rem</code></li>
+        <li><input type="checkbox"> Viewport Units: <code>vw</code>, <code>vh</code></li>
+      </ul>
+      <li><input type="checkbox"> CSS Frameworks (e.g., Bootstrap Basics)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>12. Basic Debugging Tools</h2>
+    <ul>
+      <li><input type="checkbox"> Browser Developer Tools for CSS</li>
+      <li><input type="checkbox"> Common Issues: Specificity, Overriding Rules, Missing Links</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>13. CSS Best Practices</h2>
+    <ul>
+      <li><input type="checkbox"> Organizing Stylesheets</li>
+      <li><input type="checkbox"> Using Comments in CSS</li>
+      <li><input type="checkbox"> Avoiding Inline Styles</li>
+      <li><input type="checkbox"> Writing Maintainable and Reusable CSS</li>
+      <li><input type="checkbox"> Understanding CSS Specificity and Cascade</li>
+    </ul>
+  </div>
+</body>
+</html>
